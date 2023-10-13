@@ -19,12 +19,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: I will Make The World # the main title
+title: 감귤국밥 # the main title
 
-tagline: and... You will Enjoy The World. # it will display as the sub-title
+tagline: 감귤국밥의 세계에 온 Girl 환ㅋㅋㅋㅋ영ㅋㅋㅋ # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Making Game
+  Making Unity Game
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -55,7 +55,7 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: G-X8GV48VPQB # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 #
