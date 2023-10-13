@@ -19,12 +19,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 감귤국밥 # the main title
+title: Gamgulgukbab # the main title
 
-tagline: 감귤국밥의 세계에 온 Girl 환ㅋㅋㅋㅋ영ㅋㅋㅋ # it will display as the sub-title
+tagline: Im a gamgulgukbab # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Making Unity Game
+  Making Game
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
