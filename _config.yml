@@ -19,12 +19,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Gamgulgukbab # the main title
+title: 감귤국밥의 침대 # the main title
 
-tagline: Im a gamgulgukbab # it will display as the sub-title
+tagline: "침대 좀 정리해!!" # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Making Game
+  I WILL MAKE GAME
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -68,7 +68,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark #[light|dark]
+theme_mode: #[light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url

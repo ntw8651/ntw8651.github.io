@@ -27,6 +27,8 @@ tail_includes:
         {% include datetime.html date=page.date tooltip=true lang=lang %}
       </span>
 
+      
+
       <!-- lastmod date -->
       {% if page.last_modified_at and page.last_modified_at != page.date %}
         <span>
@@ -114,6 +116,15 @@ tail_includes:
       </div>
     {% endif %}
 
+    <!-- comments-->
+    <script src="https://utteranc.es/client.js"
+    repo="ntw8651/ntw8651.github.io"
+    issue-term="pathname"
+    label="Comments"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+    </script>
     <div
       class="
         post-tail-bottom
@@ -134,6 +145,7 @@ tail_includes:
 
       {% include post-sharing.html lang=lang %}
     </div>
+    
     <!-- .post-tail-bottom -->
   </div>
   <!-- div.post-tail-wrapper -->
