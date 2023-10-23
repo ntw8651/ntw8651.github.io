@@ -4,11 +4,8 @@ date: 2023-10-13 8:40:00 +09:00
 categories: [about Unity]
 tags:
   [
-    Unity,
-    유니티,
-    C#,
-    모르는 거,
-    english,
+    C,
+    한국어,
   ]
 ---
  

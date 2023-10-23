@@ -1,12 +1,21 @@
 ---
-title: 깃허브 블로그용 마크다운(Markdown) 문법들
-date: 2023-10-10 5:00:00 +09:00
-categories: [Memo]
+title: Unity, Shader - 캐릭터를 피격시 하얗게 만드는 방법
+date: 2023-10-23 18:40:00 +09:00
+categories: [Unity Development]
 tags:
   [
-
+    Unity,
+    한국어
   ]
 ---
+
+
+# 캐릭터
+# 피격시 하얗게
+
+
+
+
 # 코드 블럭
 <pre><code>
 ```c#

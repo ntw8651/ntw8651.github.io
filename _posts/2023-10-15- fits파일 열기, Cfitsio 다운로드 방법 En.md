@@ -1,14 +1,11 @@
 ---
 title: C - Open fits file in 'C', cfitsio
 date: 2023-10-13 8:40:00 +09:00
-categories: [about Unity]
+categories: [C]
 tags:
   [
-    Unity,
-    유니티,
-    C#,
-    모르는 거,
-    english,
+    C,
+    English,
   ]
 ---
  
