@@ -4,9 +4,9 @@
 
 @mixin light-scheme {
   /* Framework color */
-  --main-bg: rgb(164, 204, 163); //배경
+  --main-bg: #a4cca3; //배경
   --mask-bg: #c1c3c5;
-  --main-border-color: #f3f3f3;
+  --main-border-color: #768b5e;
 
   /* Common color */
   --text-color: #34343c;
@@ -40,8 +40,8 @@
   /* Sidebar */
   --site-title-color: rgb(113, 113, 113);
   --site-subtitle-color: #717171;
-  --sidebar-bg: #f6f8fa;
-  --sidebar-border-color: #efefef;
+  --sidebar-bg: rgb(170, 197, 138);
+  --sidebar-border-color: rgb(116, 134, 93);
   --sidebar-muted-color: #545454;
   --sidebar-active-color: #1d1d1d;
   --sidebar-hover-bg: rgb(223, 233, 241, 0.64);
@@ -50,9 +50,9 @@
   --avatar-border-color: white;
 
   /* Topbar */
-  --topbar-bg: rgb(255, 255, 255, 0.7);
+  --topbar-bg: #a4cca3;
   --topbar-text-color: rgb(78, 78, 78);
-  --search-border-color: rgb(240, 240, 240);
+  --search-border-color: rgb(95, 79, 79);
   --search-icon-color: #c2c6cc;
   --input-focus-border-color: #b8b8b8;
 
