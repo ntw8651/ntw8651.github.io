@@ -4,7 +4,7 @@
 
 @mixin light-syntax {
   /* --- custom light colors --- */
-  --language-border-color: #a4cca3;
+  --language-border-color: #ececec; /*코드블럭 외곽선*/
   --highlight-bg-color: #f6f8fa;
   --highlighter-rouge-color: #3f596f;
   --highlight-lineno-color: #9e9e9e;
