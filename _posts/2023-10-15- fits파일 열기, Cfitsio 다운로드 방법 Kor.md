@@ -1,7 +1,7 @@
 ---
 title: C - c에서 fits파일 열기, cfitsio
 date: 2023-10-13 8:40:00 +09:00
-categories: [about Unity]
+categories: [C]
 tags:
   [
     C,
