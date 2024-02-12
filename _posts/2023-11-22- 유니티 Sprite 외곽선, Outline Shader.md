@@ -1,5 +1,5 @@
 ---
-title: Unity, Shader - Sprite에게 외곽선을 주는 완-벽한 방법
+title: Unity, Shader - Sprite에게 외곽선을 주는 한가지 방법(미완)
 date: 2023-10-23 18:40:00 +09:00
 categories: [Unity Development]
 tags:
@@ -8,6 +8,7 @@ tags:
     한국어
   ]
 ---
+
 
 ## 다룰 문제들
 당근 빳다로다가 제목에 쓴 것처럼 스프라이트의 외곽선을 만들어 볼 것이다. 
@@ -58,12 +59,14 @@ tags:
 ### 쉐이더 그래프 변수 선언
 우선 쉐이더 그래프 변수부터 만들자.
 
-![Alt text](image-6.png)
+![Alt text](image-13.png)
 
 옆에 +기호를 눌러서 만들 수 있다. 설마 못찾진 않겠지만 화면 왼쪽에 떠있다.
 
-thickness다...
-
+- MainTex : 이용할 이미지
+- Thickness : 외곽선 두께
+- Color : 외곽선 색
+- Enable : On/Off에 사용할 값
 ### 그래프 구성
 
 #### x축 방향 복사
@@ -81,8 +84,13 @@ Object는 해당 머티리얼이 적용된 오브젝트의 값을 받아올 수 
 ![Alt text](image-12.png)
 
 Vector2와 Negate에 X, In값은 Divide(Out(3))에서 들어왔다.
-Vector2는 말 그대로 벡터값을 지정해 주는 기능을 하고, Negate는 -를 곱해준다 바꿔준다. x축 오른쪽으로는 양수고, 왼쪽은 음수니 양방향을 위해 같은 노드를 Negate를 거치고 진행해주는 것이다.
+Vector2는 말 그대로 벡터값을 지정해 주는 기능을 하고, Negate는 인풋 값에 -를 곱해준다. x축 오른쪽은 양수고, 왼쪽은 음수니 양방향으로 복사하기 위해 같은 Negate 노드를 거치고 진행해주는 것이다.
 
+Tiling And Offset은 말 그대로 입력값을 타일링(크기 변경)하거나 오프셋 변경(좌표 변경)하는 노드이다. 복사한 이미지를 이동할 것이기에 Offset을 사용한다.
+
+
+![Alt text](image-15.png)
+이후 Sample Texture 2D를 통해 MainTex의 알파(투명도) 값만 추출해내고
 
 #### ㅁㄴㅇㄹ
 

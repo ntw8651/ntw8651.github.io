@@ -147,6 +147,8 @@ Create - Shader Graph - URP - Srpite Lit Shader Graph
 변수 이름은 우클릭 -> Rename을 통해 바꿀 수 있다.
 
 MainTex : 소스 텍스쳐
+FlashColor : 맞았을 때 변하는 색, 주로 흰색 또는 빨간색
+FlashLightAmount : 얼마나 하얗게 되는지...인데 이것을 통해 피격 색상을 제어할 것이다.
 
 
 
