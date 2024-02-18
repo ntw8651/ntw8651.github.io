@@ -74,9 +74,7 @@ https://www.youtube.com/watch?v=rq6yGh-piIU&t
 
 
 
-
-
-<img data-src="https://drive.google.com/uc?export=view&id=1KmExnUBNbUJhRWp62EnvkEZdYvdi7VBB" alt="" class="image-styling" data-proofer-ignore="" src="https://drive.google.com/uc?export=view&id=1KmExnUBNbUJhRWp62EnvkEZdYvdi7VBB" data-loaded="true">
+<img crossorigin="anonymous" alt="" src="https://drive.lienuc.com/uc?id=1KmExnUBNbUJhRWp62EnvkEZdYvdi7VBB" />
 
 
 
@@ -92,11 +90,7 @@ Create - Shader Graph - URP - Srpite Lit Shader Graph
 
 <br>
 
-
-
-<img data-src="https://drive.google.com/uc?export=view&id=1vv-NalMB1ErWbipo4DL4ozIB3_u261u2" alt="구글드라이브 이미지" class="image-styling" data-proofer-ignore="" src="https://drive.google.com/uc?export=view&id=1vv-NalMB1ErWbipo4DL4ozIB3_u261u2" data-loaded="true">
-
-
+<img crossorigin="anonymous" alt="" src="https://drive.lienuc.com/uc?id=1vv-NalMB1ErWbipo4DL4ozIB3_u261u2" />
 
 
 
@@ -113,8 +107,8 @@ Create - Shader Graph - URP - Srpite Lit Shader Graph
 
 
 
+<img crossorigin="anonymous" alt="" src="https://drive.lienuc.com/uc?id=1mKqYhBQafjfP2in_2Q8Tb3kfYmUEjU3M" />
 
-<img data-src="https://drive.google.com/uc?export=view&id=1mKqYhBQafjfP2in_2Q8Tb3kfYmUEjU3M" alt="" class="image-styling" data-proofer-ignore="" src="https://drive.google.com/uc?export=view&id=1mKqYhBQafjfP2in_2Q8Tb3kfYmUEjU3M" data-loaded="true">
 
 
 
@@ -124,9 +118,9 @@ Create - Shader Graph - URP - Srpite Lit Shader Graph
 
 거기서 Sample만 치면 Sample로 시작하는 두가지가 뜨는데 그중에 **<span style='color : #916C3F'>Sample Texture 2D: Texture(T2)</span>** 이거 클릭... 이런 식으로 노드를 추가할 수 있다.
 
+<img crossorigin="anonymous" alt="" src="https://drive.lienuc.com/uc?id=1i2gDKpxEk2BPwuc0g4NdwzW_9kf2v7ws" />
 
 
-<img data-src="https://drive.google.com/uc?export=view&id=1i2gDKpxEk2BPwuc0g4NdwzW_9kf2v7ws" alt="" class="image-styling" data-proofer-ignore="" src="https://drive.google.com/uc?export=view&id=1i2gDKpxEk2BPwuc0g4NdwzW_9kf2v7ws" data-loaded="true">
 
 
 
@@ -287,8 +281,8 @@ private void InitDamageFlash()
 중요한 것은, 저 ""안에 있는 글자다. 아까 쉐이더 그래프 창으로 돌아가서 변수들을 한 번 누르고, 왼쪽 아래 Graph Inspector를 보면 
 
 
+<img crossorigin="anonymous" alt="" src="https://drive.lienuc.com/uc?id=1JILe4X1ZUUHFQp0VlfXpAo5c-r1oCi_S" />
 
-<img data-src="https://drive.google.com/uc?export=view&id=1JILe4X1ZUUHFQp0VlfXpAo5c-r1oCi_S" alt="" class="image-styling" data-proofer-ignore="" src="https://drive.google.com/uc?export=view&id=1JILe4X1ZUUHFQp0VlfXpAo5c-r1oCi_S" data-loaded="true">
 
 
 
