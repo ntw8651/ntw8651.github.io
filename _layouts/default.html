@@ -31,12 +31,6 @@ layout: compress
     
     {% include sidebar.html lang=lang %}
 
-    <!-- Snow Effect ADD-->
-    <!--
-    {% for i in (1..100) %}
-      <div class="snow"></div>
-    {% endfor %}
-    -->
     <div id="snow-container" class="snow-container"></div>
   
     <div id="main-wrapper" class="d-flex justify-content-center">
@@ -108,18 +102,6 @@ layout: compress
     {% endif %}
 
     {% include_cached search-loader.html %}
-
-    <!-- ADD -->
-    <!--
-    <script>
-      if (document.cookie ) {
-        var liquidCode = '{% for i in (1..100) %}\n' +
-                        '    <div class="snow"></div>\n' +
-                        '{% endfor %}';
-        document.getElementById('snow-container').innerHTML = liquidCode;
-    }
-    </script>
-    -->
 
   </body>
 </html>
