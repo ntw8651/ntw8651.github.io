@@ -1,5 +1,8 @@
 <!-- JS selector for site. -->
 
+<!-- ADD CUSTOMS -->
+{% capture script %}/assets/js/dist/custom.js{% endcapture %}
+<script defer src="{{ script | relative_url }}"></script>
 <!-- commons -->
 
 {% assign urls = site.data.origin[type].jquery.js

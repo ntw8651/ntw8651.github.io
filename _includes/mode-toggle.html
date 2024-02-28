@@ -2,6 +2,43 @@
 
 <script type="text/javascript">
   class ModeToggle {
+    /*Custom Toggles*/
+    static get EFFECT_KEY() {
+      return 'mode';
+    }
+    static get EFFECT_ATTR() {
+      return 'data-mode';
+    }
+    static get EFFECT_MODE_ON(){
+      return 'effect-mode-on';
+    }
+    static get EFFECT_MODE_OFF(){
+      return 'effect-mode-off';
+    }
+
+
+    get isEffectModeOn() {
+      return this.mode === ModeToggle.EFFECT_MODE_ON;
+    }
+
+    get isEffectModeOff() {
+      return this.mode === ModeToggle.EFFECT_MODE_OFF;
+    }
+
+    setEffectOn() {
+      document.documentElement.setAttribute(ModeToggle.EFFECT_ATTR, ModeToggle.EFFECT_MODE_ON);
+      sessionStorage.setItem(ModeToggle.EFFECT_KEY, ModeToggle.EFFECT_MODE_ON);
+    }
+
+    setEffectOff() {
+      document.documentElement.setAttribute(ModeToggle.EFFECT_ATTR, ModeToggle.EFFECT_MODE_OFF);
+      sessionStorage.setItem(ModeToggle.EFFECT_KEY, ModeToggle.EFFECT_MODE_OFF);
+    }
+
+    /*Custom Toggles End */
+
+
+
     static get MODE_KEY() {
       return 'mode';
     }

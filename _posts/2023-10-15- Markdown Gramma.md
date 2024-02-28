@@ -10,17 +10,15 @@ tags:
 
 ## 코드 블럭
 <pre><code>
-```c#
-def talk(){
+```python
+def talk():
     print("talk")
-}
 ```
 </code>
 </pre>
 ```python
-def talk(){
+def talk():
     print("talk")
-}
 
 ```
 

@@ -1,5 +1,5 @@
 ---
-title: 옵시디언(Obsidian)의 쌈뽕한 플러그인 소개
+title: 옵시디언(Obsidian)의 쓸모있는 플러그인들
 date: 2024-02-11 21:00:00 +09:00
 categories: [유용한 도구]
 tags:
@@ -19,7 +19,6 @@ tags:
 
 라는 플러그인. 이름처럼 드롭박스를 통해 온라인 세이브가 가능하다.
 
-이거 없으면 난 못 살아요.
 
 <img crossorigin="anonymous" alt="" src="https://drive.lienuc.com/uc?id=1HQkdbiSlWqmMR_BA34Do81RVUjpjj1An" />
 
@@ -30,6 +29,7 @@ tags:
 ```아 그림으로 설명해주세요```
 
 <img crossorigin="anonymous" alt="" src="https://drive.lienuc.com/uc?id=1k-JEGAGlGRX8bbAenq_v4hzsXI4PzAk5" />
+
 이때 필요한 플러그인. 그림판이라고 보면 된다. Remotely Save를 통해서 그림 파일도 같이 업로드 된다.
 
 ## Table of Contents
