@@ -11,6 +11,7 @@
     height: 10px;
     background: white;
     border-radius: 50%;
+    z-index: -999;
     filter: drop-shadow(0 0 10px white);
     @for $i from 1 through $total {
         $random-x: random(1000000) * 0.0001vw;
@@ -46,6 +47,31 @@
 .relative {
     position: relative;
 }
+
+
+
+/* --- on/off button --- */
+.sidebar-toggle-button {
+  position: fixed; /* 화면에서 고정 */
+  top: 50%; /* 화면 세로 중앙에 위치 */
+  //right: 0; /* 오른쪽에 붙임 */
+  left: $sidebar-width;
+  transform: translateY(-50%); /* 세로 중앙 정렬을 위한 이동 */
+  z-index: 100; /* 다른 요소 위에 나타나도록 z-index 설정 */
+  //background-color: #fff; /* 배경색 설정 */
+  border: none; /* 테두리 없음 */
+  padding: 10px; /* 내부 여백 설정 */
+  border-radius: 0 5px 5px 0; /* 둥근 모서리 설정 */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+}
+
+
+
+#sidebar-toggle-button {
+  display: block;
+}
+
+
 
 
 
@@ -105,4 +131,26 @@
   left: 34px;
   background: #fff;
   box-shadow: 1px 2px 3px #00000020;
+}
+
+
+
+
+@media all and (max-width: 849px) {
+  @mixin slide($append: null) {
+    $basic: transform 0.4s ease;
+
+    @if $append {
+      transition: $basic, $append;
+    } @else {
+      transition: $basic;
+    }
+  }
+
+  #sidebar-toggle-button {
+    @include slide;
+
+    transform: translateX(-$sidebar-width);
+    display: none;
+  }
 }

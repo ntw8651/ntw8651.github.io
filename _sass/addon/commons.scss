@@ -36,8 +36,6 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: $font-family-base;
 
-
-  overflow: hidden;
   
 }
 
@@ -1288,6 +1286,15 @@ search {
       visibility: hidden;
     }
   }
+
+  /*-- ADD --*/
+  #sidebar-toggle-button {
+    @include slide;
+
+    transform: translateX(-$sidebar-width);
+    display: none;
+  }
+
 
   #sidebar {
     @include slide;

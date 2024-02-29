@@ -48,7 +48,7 @@ npm install && npm run build
 ```
 입력. 끝!.. 만약 이게 안된다면?
 
-### npm install 시에 "NODE_ENV" is not...하면서 안 돼요
+## npm install 시에 "NODE_ENV" is not...하면서 안 돼요
 
 
 
@@ -63,3 +63,13 @@ npm install && npm run build
 > 출처
 https://stackoverflow.com/questions/11928013/node-env-is-not-recognized-as-an-internal-or-external-command-operable-comman 
 
+## 빌드 중 Process completed with exit code 1.
+```'a' tag is missing a reference```
+
+아래로 쭉 온갖 오류가 뜨는데, 이건 ```<a></a>``` 에 href 인자가 없어서 일어난다.
+
+딱히 인자를 넣고 싶지 않은데 디자인적으로 넣어야 한다면
+
+```<a href="#"></a>```
+
+라도 쓰자
