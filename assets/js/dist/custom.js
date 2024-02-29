@@ -9,7 +9,7 @@ if (getCookie('your_cookie_name') === 'true') {
     
 }
 */
-
+/* 이펙트 관련 */
 document.addEventListener("DOMContentLoaded", function() {
     // 쿠키값 가져오기
     function getCookie(name) {
@@ -66,3 +66,69 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+
+
+
+
+/* 사이드바 관련 */
+
+const body = $('body');
+const ATTR_DISPLAY = 'sidebar-display'; //sidebar.js
+
+/* 초기 */
+document.addEventListener("DOMContentLoaded", function() {
+    var element = $("#sidebar-trigger");
+    var _body = $('body');
+    if (_body.attr(ATTR_DISPLAY) === "") {
+        // ID가 "yourElementId"인 요소를 선택합니다.
+
+        // left 값을 변경합니다.
+        console.log($('#sidebar-trigger').css('left'));
+        var sidebar_width = $('#sidebar').css('width');
+        element.css({
+            'left': sidebar_width,
+            'transition': 'left 0.4s ease'
+        });
+
+    }
+    else{
+        console.log(body.attr(ATTR_DISPLAY));
+        element.css({
+            'left' : 0,
+            'transition': 'left 0.4s ease'
+        });
+}});
+
+
+// MutationObserver를 생성합니다. 잠깐... 그냥 왼쪽에
+const observer = new MutationObserver(function(mutation, observer) {
+    // mutationsList에는 변화한 MutationRecord 목록이 포함됩니다.
+    // 각각의 MutationRecord를 순회하며 원하는 처리를 수행합니다.
+    // 추가된 속성이 있다면 해당 처리를 수행합니다.
+    var element = $("#sidebar-trigger");
+    var _body = $('body');
+    if (_body.attr(ATTR_DISPLAY) === "") {
+        // ID가 "yourElementId"인 요소를 선택합니다.
+
+        // left 값을 변경합니다.
+        console.log($('#sidebar-trigger').css('left'));
+        var sidebar_width = $('#sidebar').css('width');
+        element.css({
+            'left': sidebar_width,
+            'transition': 'left 0.4s ease'
+        });
+
+    }
+    else{
+        console.log(body.attr(ATTR_DISPLAY));
+        element.css({
+            'left' : 0,
+            'transition': 'left 0.4s ease'
+    });
+    }
+
+});
+
+// MutationObserver에 감시할 대상을 등록합니다.
+// subtree: true로 설정하면 body 하위의 모든 요소에 대한 변화를 감시합니다.
+observer.observe(body[0], { attributes: true, subtree: false });

@@ -12,7 +12,9 @@ class SidebarUtil {
     if (SidebarUtil.isExpanded === false) {
       $body.attr(ATTR_DISPLAY, '');
     } else {
+      //EDITED
       $body.removeAttr(ATTR_DISPLAY);
+      
     }
 
     SidebarUtil.isExpanded = !SidebarUtil.isExpanded;

@@ -986,8 +986,8 @@ search {
     color: var(--search-icon-color);
   }
 }
-
-#sidebar-trigger,
+/* EDIT */
+//#sidebar-trigger,
 #search-trigger {
   display: none;
 }
@@ -1287,13 +1287,7 @@ search {
     }
   }
 
-  /*-- ADD --*/
-  #sidebar-toggle-button {
-    @include slide;
 
-    transform: translateX(-$sidebar-width);
-    display: none;
-  }
 
 
   #sidebar {
@@ -1358,6 +1352,39 @@ search {
 /* Sidebar is visible */
 @media all and (min-width: 850px) {
   /* Solved jumping scrollbar */
+  
+
+  /* ADD */
+  @mixin slide($append: null) {
+    $basic: transform 0.4s ease;
+
+    @if $append {
+      transition: $basic, $append;
+    } @else {
+      transition: $basic;
+    }
+  }
+
+  [#{$sidebar-display}] {
+    #sidebar {
+      transform: translateX(0);
+    }
+
+    #back-to-top {
+      visibility: hidden;
+    }
+  }
+  #sidebar {
+    @include slide;
+
+    transform: translateX(-$sidebar-width); /* hide */
+    -webkit-transform: translateX(-$sidebar-width);
+  }
+  /* ADD END */
+  
+
+
+
   html {
     overflow-y: scroll;
   }
