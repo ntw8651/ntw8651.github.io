@@ -15,7 +15,7 @@ tags:
 
 ## Remotely Save
 
-```뭐라고? 온라인 저장소를 쓸 수 있다고? 무료로? 이거 완존 캡짱 아니냐```
+```무료 온라인 저장소```
 
 라는 플러그인. 이름처럼 드롭박스를 통해 온라인 세이브가 가능하다.
 
@@ -26,7 +26,7 @@ tags:
 
 ## Excalidraw
 
-```아 그림으로 설명해주세요```
+```그림도 작성```
 
 <img crossorigin="anonymous" alt="" src="https://drive.lienuc.com/uc?id=1k-JEGAGlGRX8bbAenq_v4hzsXI4PzAk5" />
 
@@ -34,9 +34,9 @@ tags:
 
 ## Table of Contents
 
-```목차 만들기 세상 귀찮네```
+```목차 만들기```
 
-이것을 해결해주는 플러그인. 옵시디언에서 쭉쭉 문서를 쓰다보면 한 문서가 좀 길어져서 목차가 필요할 때가 있다. 그때 쓰자. 헤더(#~~~) 을 기준으로 구분해준다.
+이것을 해주는 플러그인. 옵시디언에서 쭉쭉 문서를 쓰다보면 한 문서가 좀 길어져서 목차가 필요할 때가 있다. 그때 쓰자. 헤더(#~~~) 을 기준으로 구분해준다.
 
 <img crossorigin="anonymous" alt="" src="https://drive.lienuc.com/uc?id=14dcXSqpJZzISuULK0DiEBfg3cB0eCPZh" />
 

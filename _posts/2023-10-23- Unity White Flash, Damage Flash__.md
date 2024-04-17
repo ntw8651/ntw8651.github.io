@@ -1,6 +1,6 @@
 ---
 
-title: Unity, Shader - 2D 캐릭터를 피격시 하얗게 만드는 방법[작성중]
+title: Unity, Shader - 2D 캐릭터를 피격시 하얗게 만드는 방법
 
 date: 2023-10-23 18:40:00 +09:00
 
