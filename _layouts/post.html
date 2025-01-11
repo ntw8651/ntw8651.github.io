@@ -20,7 +20,7 @@ tail_includes:
   <header>
     <!-- ADD -->
     <!-- NOTICE https://heekangpark.github.io/jekyll/ -->
-    <!-- Change your Language!-->
+    <!-- Change your Language!
     {% assign reverseLClink = page.url | split: "" | reverse | join: "" %}
     {% assign LClinkEnd = reverseLClink | slice : 1, 3 | split: "" | reverse | join: "" %}
     {% assign LClinkLength = page.url | size | minus : 4 %}
@@ -38,7 +38,7 @@ tail_includes:
       {% assign LCDestEnd = "Eng" %}
     {% else %}
       {% assign existLC = false %}
-    {% endif %}
+    {% endif %}-->
     
     
     <h1 data-toc-skip>{{ page.title }}</h1>
@@ -66,10 +66,10 @@ tail_includes:
         </span>
       {% endif %}
 
-      <!-- ADD -->
+      <!-- ADD 
       {% if LCDestEnd != "" %}
         <a href="../../{{ LClink }}">Go to {{ LCDestEnd }} Version</a>
-      {% endif %}
+      {% endif %}-->
       
       
       {% if page.image %}
